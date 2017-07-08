@@ -1,0 +1,22 @@
+$base-color:red;
+
+body{
+	color: $base-color;
+}
+
+nav{
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li{
+			display: inline-block;
+			
+			
+			a{
+				color:green;
+			}
+		}
+	}
+}
