@@ -1,7 +1,13 @@
-$base-color:red;
+@import"zmienne";
+
+@mixin menu-nawigacyjne{
+	color: darkturquoise;
+	font-size: 22px;
+}
 
 body{
 	color: $base-color;
+	background-color: $bg-color;
 }
 
 nav{
